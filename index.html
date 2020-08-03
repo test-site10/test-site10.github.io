@@ -1,1 +1,365 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+  <title>Mothership</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style2.css">
+
+</head>
+<body>
+  <header class="header">
+    <div class="header-background"></div>
+    <div class="header_container">
+      <div class="header_logo">
+        <!--<img src="images/logo.jpg">-->
+      </div>
+      <div class="header_menu">
+        <nav class="menu_items" role="navigation" aria-expanded="false">
+          <a class="section_tag" href="#home" onclick="closeMenu()">home</a>
+          <a class="section_tag" href="#what" onclick="closeMenu()">what</a>
+          <a class="section_tag" href="#who" onclick="closeMenu()">who</a>
+          <a class="section_tag" href="#where" onclick="closeMenu()">where</a>
+        </nav>
+      </div>
+      <button id="mobile_header--toggle" aria-expanded="false">Menu</button>
+  </header>
+  <section id="home">
+    <div class="home-wrapper">
+      <div class="title_image">
+        <div class="title_image--background">
+          <?xml version="1.0" encoding="UTF-8"?>
+          <svg id="mothership" width="1430px" height="1044px" viewBox="0 0 1430 1044" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+              <title>Page 1</title>
+              <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                  <g id="Desktop-HD" transform="translate(0.000000, -23.000000)">
+                      <g id="clouds" transform="translate(0.000000, 327.000000)" fill-rule="nonzero">
+                          <path d="M3,0 C38.6966749,7.12990315 64.9200602,48.9986671 41.3617983,88.4345488 C63.8010433,104.945503 74.4437274,137.413024 66.7653649,158.90568 C103.75608,178.044224 102.338401,200.695933 94.2557769,223.957276 C126.230536,226.250872 143.140603,244.834214 151.211812,272.975185 C183.345594,265.387906 209.919317,276.539847 212.997415,312.896673 C243.275799,309.313808 264.193238,312.896673 292.099724,344.525733 C330.364382,348.618865 362.706601,360.06346 389.838152,377.976001 C419.027178,361.438519 482.272473,374.534783 496.890232,404.568683 C546.133387,356.425307 612.710883,390.249115 618.142443,430.558572 C636.219856,417.491084 678.264751,422.125866 695.8051,446.692134 C730.49783,413.392564 803.754157,415.002153 822.71492,476.91601 C859.264092,465.652281 887.852764,484.349937 897.01732,516.414259 C939.300286,495.29001 973.377396,511.204739 987.946258,554.41915 C1019.08092,554.41915 1036.74619,570.556741 1035.38172,599.494404 C1076.12213,579.74719 1120.37742,599.494404 1120.37742,632.639729 C1136.57526,602.186938 1197.9546,594.426111 1219.22004,632.639729 C1247.82761,610.75633 1295.21641,623.579856 1300.48279,662.523975 C1315.53066,651.648586 1335.40094,657.159347 1345.15725,678.583248 C1409.53793,665.582333 1438.90172,705.41498 1427.58697,739 C1413.69993,739 938.837604,733.62568 3,722.877039 L3,0 Z" id="cloud_shadow" fill="#1F283D"></path>
+                          <path d="M3,70.9468991 C32.5071926,70.9468991 46.2324313,131.954462 27.0429646,158.018786 C70.6581223,197.751876 71.9671783,262.2252 46.9760029,298.091254 C66.3828747,302.31562 77.2161231,308.550982 91.1173271,323.199227 C180.43265,284.909337 268.796247,348.820646 266.468393,435.796551 C272.034877,438.143317 276.915718,441.182323 280.744274,445.283738 C274.337763,301.101389 383.566465,178.509214 452.290752,126.501989 C372.468398,232.209423 361.209591,317.496969 361.209591,395.45519 C366.11898,341.37113 388.795245,290.542949 423.478798,241.915172 C373.837588,357.856833 388.795245,430.192588 402.129157,483.233643 C410.827893,485.511931 419.202661,488.302361 426.333974,493.058502 C470.860383,410.567155 585.841067,407.96292 634.794213,478.58025 C647.901859,478.090279 661.07896,477.535174 667.587687,483.233643 C698.443017,440.091457 770.577557,448.039463 788.298383,494.64741 C835.212778,486.323571 887.490603,508.663098 913.346773,562.865189 C970.65418,549.785302 1029,598.952509 1029,636.198926 C1059.57939,618.392202 1113.7745,629.159927 1120.5327,671.833064 C1157.37918,627.399847 1280.18525,627.399847 1303.18359,695.22487 C1338.29018,677.141202 1421.31926,684.345213 1427.58697,739 C1411.3698,739 935.507478,736.991505 -2.27373675e-13,732.974516 C2,303.072012 3,82.3961395 3,70.9468991 Z" id="cloud" fill="#E8E8E8"></path>
+                          <path d="M120.764772,485.070634 C53.3774301,478.610252 56.594859,354.888834 124.119746,332.443403 C182.600666,309.02381 259.760824,330.710614 266.65653,436.251927 C290.975386,450.496547 307.847275,467.732366 316.856363,488.126412 C319.299318,487.337519 321.988696,486.82456 326.298787,488.126412 C256.458315,337.013599 408.960762,177.703361 451.985544,127.044098 C366.429442,244.252668 361.12189,323.006651 361.12189,396.698395 C367.51808,334.300883 393.171325,286.539711 423.353404,242.220682 C372.526818,353.40703 386.228896,433.920745 402.341565,482.879833 C415.419193,485.957171 420.857827,490.704909 426.48859,493.018492 C463.022655,422.681722 575.429035,396.698395 634.128326,478.610252 C647.874471,477.541544 658.475249,479.579195 667.797182,482.879833 C692.674473,445.049164 765.166594,441.813301 788.445806,494.975324 C858.278615,487.411762 882.610551,525.863493 854.225142,553.836266 C829.124186,579.077057 778.858747,579.769963 755.056295,555.685331 C746.854616,601.095179 664.304662,639.955312 592.97955,579.769963 C551.066476,623.329329 423.353404,646.201577 377.315384,565.991313 C343.778402,625.870375 232.487122,603.37106 227.284501,555.685331 C179.737735,616.175548 83.3878607,576.949573 120.764772,485.070634 Z" id="cloud_highlight" fill="#F7F5FA"></path>
+                          <path d="M267.695818,326.308874 C260.28116,293.934612 255.895942,265.472811 279.543241,197.257412 C256.011414,250.268551 252.833804,238.755953 245.123741,245.505389 C212.712203,198.214128 253.60971,107.726918 297.270756,25.9497112 C236.729977,119.053014 199.570137,203.229373 232.309852,293.933157 C232.309852,276.048134 233.739273,267.149236 250.855271,263.425575 C250.855271,298.849655 257.815302,304.567541 267.695818,326.308874 Z" id="left_swoosh" fill="#F7F5FA"></path>
+                          <path d="M548.763967,450.877039 C543.189228,426.625377 539.892185,405.304552 557.671499,354.20418 C539.979003,393.914992 537.589904,385.290868 531.793063,390.346892 C507.424322,354.920859 538.173272,287.136604 571,225.877039 C525.482179,295.621017 497.543408,358.677795 522.15889,426.624286 C522.15889,413.226559 523.233606,406.560367 536.102336,403.770961 C536.102336,430.307251 541.335262,434.590538 548.763967,450.877039 Z" id="right_swoosh" fill="#F7F5FA" transform="translate(542.000000, 338.377039) scale(-1, 1) rotate(-58.000000) translate(-542.000000, -338.377039) "></path>
+                      </g>
+                      <g id="rocketShip" transform="translate(466.000000, 23.000000)">
+                          <path d="M433.429285,0 C285.033658,6.81102664 181.520173,89.9168677 104,265.861799 C115.112686,294.794916 136.500923,307.674443 156.32351,323 C342.106647,264.970347 424.132427,149.631237 444,11.3982651 C443.759912,6.26662792 444.962501,0.549431888 433.429285,0 Z" id="rocket_body" fill="#EBE7E6" fill-rule="nonzero"></path>
+                          <g id="nose_cone" transform="translate(357.000000, 0.000000)" fill-rule="nonzero">
+                              <path d="M0,11.4987167 C21.6008668,46.6434447 45.6235863,64.2197734 69.145393,85.4297807 C75.0299027,60.168721 82.259253,48.4101101 86.9833926,11.4987167 C84.7462187,7.3270868 90.9082138,0.986095543 76.3364378,0 C29.433487,3.20333467 14.5079784,7.34489865 0,11.4987167 Z" id="nose_cone1" fill="#B12E31"></path>
+                              <path d="M86.9833926,7.09453368 C17.6992566,7.04475785 44.1384752,61.3059054 50.3702504,67.6979343 L68.6768215,85.4297807 C76.2821485,60.22834 85.0445791,35.7276216 86.9833926,7.09453368 Z" id="nose_cone2" fill="#DB3C44"></path>
+                              <path d="M78.3968064,20.2867127 C77.2767095,11.1492028 71.2798626,19.0495254 71.1092775,19.2331007 C60.764354,30.3658106 62.4294881,55.6881131 64.7887391,60.7144256 C67.3500441,66.1712077 69.3288417,62.0140844 72.4723555,56.7368683 C77.5100639,41.3130433 79.4848811,29.1629915 78.3968064,20.2867127 Z" id="nose_cone3" fill="#E94962"></path>
+                          </g>
+                          <g id="window" transform="translate(287.000000, 69.000000)">
+                              <ellipse id="Oval" fill="#BBC2E2" fill-rule="nonzero" cx="38.403964" cy="39.340081" rx="37.2652252" ry="39.340081"></ellipse>
+                              <path d="M9.95103855,44.5792623 C14.1532217,59.9679388 22.1072788,70.5221095 33.6351057,72.7029977 C38.9743786,73.7131065 57.0619011,70.8534211 63.8290297,57.9106956 C67.7676712,50.3776991 67.7553741,39.0139961 66.8063226,34.5401208 C65.5116296,28.4368733 64.3585261,26.892691 63.3470117,29.9075738 C64.0118258,39.9095289 62.1707393,50.7996628 58.5143644,54.8145051 C58.3207325,55.0271205 47.4470888,66.1771442 38.3786806,66.4783871 C23.5627518,66.9705567 18.5373347,55.8094966 12.7815099,42.7370152 C11.8308579,40.5779188 9.56401584,43.1619593 9.95103855,44.5792623 Z" id="window_reflection" fill="#CDD2E7" fill-rule="nonzero"></path>
+                              <ellipse id="window_frame" stroke="#0B3152" stroke-width="5" cx="39.5" cy="42.6184211" rx="39.4572973" ry="39.340081"></ellipse>
+                          </g>
+                          <path d="M356.880032,10 L373,32.8998745 C278.077189,63.8703649 212.108609,114.702416 180.350626,189.001704 C177.522348,206.157227 183.550841,209.04294 189.359268,212.28321 L132.37963,266 L115,238.207846 C173.442466,112.574233 254.041141,36.4423869 356.880032,10 Z" id="body_shadow" fill="#BDB9BA" fill-rule="nonzero"></path>
+                          <g id="left_wing" transform="translate(39.000000, 95.000000)" fill-rule="nonzero">
+                              <path d="M174.535806,0.229958214 C150.454097,26.0920488 128.054387,50.6489201 106.433172,89.0180188 C73.7972097,88.5985373 40.7200213,109.49347 7.52605435,135.971799 C7.19196436,38.9589192 77.2919015,11.3112656 174.535806,0.229958214 Z" id="left_wing--main" fill="#DD3D44"></path>
+                              <path d="M7.52725196,135.971799 C10.139352,94.246558 20.9340679,45.2094846 81.474047,22.1966189 C89.0150355,12.4251911 81.9017432,4.50483812 72.2256762,9.42703413 C-9.32880931,40.0203275 -6.25299822,116.331603 7.52725196,135.971799 Z" id="left_wing--jet" fill="#EA4D64"></path>
+                              <path d="M174.506109,-7.66935017e-15 C157.813553,5.27701587 145.683344,7.69660407 135.107935,9.23646178 C112.655224,33.0105899 94.8454415,60.999046 85.8161153,89.6756157 C91.0379283,88.4502289 97.8414071,87.8478702 106.328799,88.4841182 C126.129843,54.9218855 148.740169,25.2666272 174.506109,-7.66935017e-15 Z" id="left_wing--shadow" fill="#C3332B"></path>
+                          </g>
+                          <g id="right_wing" transform="translate(186.000000, 219.000000)" fill-rule="nonzero">
+                              <path d="M157.382554,17.208196 C133.766005,39.9236041 110.818287,71.8198091 89.6202133,107.352763 C57.3954853,106.934204 26.0326152,128.897919 -6.74625208,155.649652 C-25.5465986,46.5783347 115.515922,18.391677 157.382554,17.208196 Z" id="right_wing--main" fill="#DD3D44" transform="translate(74.460615, 86.428924) scale(-1, 1) rotate(-93.000000) translate(-74.460615, -86.428924) "></path>
+                              <path d="M33.0136238,198.175292 C29.6081338,160.406204 51.2325537,108.735716 105.725145,82.6826445 C113.255205,72.8297898 106.154986,64.845554 96.4941698,69.8097091 C23.8729771,91.7665972 19.0272525,177.097061 33.0136238,198.175292 Z" id="right_wing--jet" fill="#EA4D64" transform="translate(67.822415, 133.234015) scale(-1, 1) rotate(-93.000000) translate(-67.822415, -133.234015) "></path>
+                              <path d="M143.494631,2.4669635 C125.354994,3.69417794 120.542674,4.62248248 107.689502,7.19608561 C87.8127275,31.9051261 66.0064621,63.480596 55.123783,95.3508694 C61.3167392,94.0347008 67.5691396,92.6558587 75.6997422,92.6836471 C139.442559,4.02019341 104.808817,43.7544795 143.494631,2.4669635 Z" id="right_wing--shadow" fill="#C3332B" transform="translate(99.309207, 48.908916) scale(-1, 1) rotate(-93.000000) translate(-99.309207, -48.908916) "></path>
+                          </g>
+                          <g id="fire" transform="translate(0.000000, 266.000000)" fill-rule="nonzero">
+                              <path d="M103.571622,0 C47.8556257,30.3396767 54.9101805,66.8971148 34.0430898,98.8240002 C19.6596703,120.830795 18.3762726,127.357335 -0.000121148742,150.807059 C-0.0690317764,152.290704 29.3755619,132.847394 56.6105242,120.687435 C87.8317194,103.570174 134.786835,103.068338 156.03076,57.2942135 C126.89111,34.4521416 117.024813,26.2733097 103.571622,0 Z" id="fire--outer_ring" fill="#F09033"></path>
+                              <path d="M109.466623,10.8964095 C66.4815364,35.0021001 65.3648462,66.5532239 45.0762638,109.267942 C102.384946,91.0455343 127.256611,84.8760861 146.663558,49.8701375 C132.856135,38.78366 120.99903,28.7453093 109.466623,10.8964095 Z" id="fire--mid_ring" fill="#F2BE32"></path>
+                              <path d="M115.50199,19.577088 C86.1346143,41.0987281 82.0150182,58.034193 69.399331,85.1459496 C68.8241937,86.8024966 69.8315574,87.0230848 71.4300778,86.7072581 C100.353953,72.6262085 117.502882,74.0446046 138.300766,43.061216 C126.19174,32.4059035 124.711526,30.7406669 115.50199,19.577088 Z" id="fire--center_ring" fill="#FBFAA8"></path>
+                          </g>
+                          <path d="M115.732859,239 L104,266.786611 C117.993967,294.154345 134.43641,309.39567 157.020597,324 L188,312.765347 C153.897272,288.32412 134.621534,269.76746 115.732859,239 Z" id="tail_band" fill="#0D3658" fill-rule="nonzero"></path>
+                          <path d="M103.233508,312.29845 C102.189291,318.003987 104.712436,319.669037 109.497912,318.771709 C183.092555,283.795599 233.760191,223.055063 280.254772,157.625024 C282.075966,153.058381 280.672187,150.595668 274.790277,151.054433 C208.122764,197.597588 139.129891,242.373814 103.233508,312.29845 Z" id="center_wing" fill="#BF322F" fill-rule="nonzero"></path>
+                          <path d="M278.606317,152 C280.34388,152.777265 280.34388,155.609846 279.227999,157.659171 C230.572779,227.286701 177.250412,287.046883 108.914545,318.73773 C107.453645,318.73773 105.337049,319.626532 104,318.131761 C161.884386,258.372648 217.892497,216.45201 278.606317,152 Z" id="center_wing--highlight" fill="#DD3D45" fill-rule="nonzero"></path>
+                      </g>
+                  </g>
+              </g>
+          </svg>
+        </div>
+      </div>
+      <div class="title_text_container">
+        <div class="title_text">
+          <h1 id="main_title">
+            Mothership
+          </h1>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="what">
+    <div class="what-image_container">
+      <div class="what-image--background">
+        <?xml version="1.0" encoding="UTF-8"?>
+        <svg width="991px" height="359px" viewBox="0 0 991 359" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <title>Page 1</title>
+            <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                <g id="Desktop-HD" transform="translate(-430.000000, -632.000000)" fill-rule="nonzero">
+                    <g id="Group" transform="translate(430.000000, 632.000000)">
+                        <path d="M2.517291,243.39139 C-3.38329,192.351163 46.534679,155.218241 111.089356,172.783485 C120.706872,130.419211 151.220452,132.888593 164.784703,137.147586 C164.784703,103.624367 201.269045,69.315704 252.8372,81.28017 C267.373686,39.058358 335.102907,32.215523 357.629029,81.28017 C354.251971,62.700458 369.60773,49.034479 388.755202,55.517224 C391.517902,35.172408 416.921206,19.388325 464.965114,8.164976 L532.704159,8.164976 L532.704159,65.756964 L80.253428,273.281258 L2.517291,243.39139 Z" id="lower_cloud--shadow" fill="#1F283D"></path>
+                        <path d="M984.962826,14.6056048 C969.881829,53.0793723 945.61808,73.7061257 912.17158,76.485865 C930.16518,81.127553 933.73738,105.816288 918.4507,111.455586 C963.40382,111.455586 993.93881,216.41207 912.17158,226.82973 C982.58697,204.368968 1018.29209,274.633883 966,322.88453 C966,339.6198 966,336.92553 966,358.85755 C851.99316,358.85755 235.319376,358.85755 78,358.85755 C23.826582,359 -21.521202,343.49111 23.826582,295.0284 C-42.141147,226.53771 44.469004,148.418294 118.940382,192.80252 C118.940382,175.44205 138.870352,150.617224 176.32742,175.44205 C161.68815,70.923211 303.9257,71.894392 360.866637,119.341717 C366.851717,95.710527 376.799629,73.736917 420.832997,76.485865 C403.222394,40.820859 409.975839,1.72434716 464.965114,8.164976 C605.478078,8.164976 778.810649,10.3118523 984.962826,14.6056048 Z" id="cloud" fill="#E8E8E8"></path>
+                        <path d="M209.219696,310 C205.713333,310 174.755832,286.8123 244.77326,270.837066 C227.08547,236.327516 309.861924,186.717274 343.571864,251.04669 C332.707119,178.982549 417.454272,118.81618 529.077574,178.982549 C503.844078,161.068462 521,131.849685 545.90959,135.66664 C521,59.709685 604.87639,-4.89752 685.27755,47.682762 C743.0157,-39.117077 868.1393,2.778463 857.56488,95.648554 C892.07494,95.648554 904.35327,167.413575 834.50115,167.413575 C860.78731,178.982549 860.78731,199.585321 834.50115,206.452304 C869.71472,214.518595 860.55322,287.9289 843.9666,310.21974 C822.87841,310.07325 611.29611,310 209.219696,310 Z" id="lower_cloud--highlight" fill="#F7F5FA"></path>
+                    </g>
+                </g>
+            </g>
+        </svg>
+      </div>
+      <div class="what-image--main">
+        <img src="images/MothershipTeamPicture.jpg">
+      </div>
+    </div>
+    <div class="what_headline_wrapper">
+      <h2 class="what_headline">what we do</h2>
+      <p class="what_description">Mothership is a collective of artists and performers. We make ensemble
+        based theater in the moment, through improvisation and collaboration. We
+        weave together moments and characters to make thoughtful comedic works of art.</p>
+        <p class="what_description">Don't worry, we're not as pretentious as that sounds. Our shows are mostly
+          just good old fun and silliness, but we pride ourselves on keeping artistry
+          alive in our work.
+    </div>
+  </section>
+  <section id="who">
+    <div class="who_headline_wrapper">
+      <h2>who we are</h2>
+      <button id="who_image_button" aria-expanded="false">meet the team</button>
+    </div>
+    <div class="carousel" aria-expanded="false">
+      <button class="carousel__button carousel__button--left">&#8249;</button>
+      <div class="carousel__track-container">
+        <ul class="carousel__track">
+          <li class="carousel__slide">
+            <div class="image-frame">
+              <img class="carousel__image" src="images/ahley-girard.jpg" alt="">
+            </div>
+            <div class="image-text-frame">
+              <h2 class="image_title">Ashley</h2>
+              <p class="image_description">Ashley was born in Massachusetts and
+                raised on the small island of Martha’s Vineyard. She doesn’t
+                believe in red clam chowder or like to be corrected when she
+                refers to Lake Michigan as the ocean. She currently performs with
+                the iO Harold team Mothership and all-female indie team Cool Aunt.
+              </p>
+            </div>
+          </li>
+          <li class="carousel__slide">
+            <div class="image-frame">
+              <img class="carousel__image" src="images/Aram-Rayzian-1.jpg" alt="">
+            </div>
+            <div class="image-text-frame">
+              <h2 class="image_title">Aram</h2>
+              <p class="image_description">Aram is thrilled and incredibly grateful
+                to be performing at iO Chicago. He is a graduate of the Second City
+                Conservatory and was a member of the Second City House Company "Twisty".
+                When not producing shows, Aram is doing his Trump impression at bars,
+                coaching the "10,000 Hours" program at iO and the House Teams at the Crowd
+                Theater. Aram is proudly represented by Paonessa Talent Agency.</p>
+            </div>
+          </li>
+          <li class="carousel__slide">
+            <div class="image-frame">
+              <img class="carousel__image" src="images/chelsea-holmes.jpg" alt="">
+            </div>
+            <div class="image-text-frame">
+              <h2 class="image_title">Chelsey</h2>
+              <p class="image_description">Chelsey is a proud memeber of Mothership,
+                and a working actor.
+              </p>
+            </div>
+          </li>
+          <li class="carousel__slide">
+            <div class="image-frame">
+              <img class="carousel__image" src="images/garrett-williams.jpg" alt="">
+            </div>
+            <div class="image-text-frame">
+              <h2 class="image_title">Garrett</h2>
+              <p class="image_description">
+                Garrett Williams is an actor and improviser in Chicago. He performs
+                with the iO Harold Team “Mothership”, Independent Team “French Toast”,
+                and Chicago Improv Den team “The Stacks”. He loves going to see
+                movies, usually alone, and dipping things in ranch dressing. He is
+                represented by Ambassador Talent.
+              </p>
+            </div>
+          </li>
+          <li class="carousel__slide">
+            <div class="image-frame">
+              <img class="carousel__image" src="images/jake-wallach.jpg" alt="">
+            </div>
+            <div class="image-text-frame">
+              <h2 class="image_title">Jake</h2>
+              <p class="image_description">
+                Jake is a member of the iO Harold team Mothership and performs
+                across Chicago with his indie team Mrs. Housefire. When he isn’t
+                improvising he enjoys bowling, trivia nights and the White Stripes.
+              </p>
+            </div>
+          </li>
+          <li class="carousel__slide">
+            <div class="image-frame">
+              <img class="carousel__image" src="images/Henrik-Blix2.jpg" alt="">
+            </div>
+            <div class="image-text-frame">
+              <h2 class="image_title">Henrik</h2>
+              <p class="image_description">
+                Henrik Blix’s name comes from Norway but his skeleton and all of
+                it’s attached features are from Kalamazoo, MI.  Henrik and his
+                hundreds of bones work together as a Headline Contributor for
+                The Onion and as a performer at Second City.  He is represented
+                by Paonessa talent.  You can follow him on Twitter @henrikontheweb
+                or check out his work at <a href="https://www.henrikblix.com">henrikblix.com </a> but hey it’s your life so do whatever you want!
+              </p>
+            </div>
+          </li>
+          <li class="carousel__slide">
+            <div class="image-frame">
+              <img class="carousel__image" src="images/Michelle-Aldridge.jpg" alt="">
+            </div>
+            <div class="image-text-frame">
+              <h2 class="image_title">Michelle</h2>
+              <p class="image_description">
+                Michelle is over the moon to be performing with her incredibly
+                talented friends on Mothership. She has been honing her improv,
+                sketch, writing, and stand-up skills for nearly a decade at
+                renowned comedy theaters in DC, Tokyo, and Chicago. See more of
+                her work at <a href="https://www.gingerlymyself.com">gingerlymyself.com</a>
+                or follow her @gingerlymyself to see what her curly bangs look like today.
+              </p>
+            </div>
+          </li>
+          <li class="carousel__slide">
+            <div class="image-frame">
+              <img class="carousel__image" src="images/tricia-brown.jpg" alt="">
+            </div>
+            <div class="image-text-frame">
+              <h2 class="image_title">Tricia</h2>
+              <p class="image_description">
+                Tricia is a new performer, and a long time office Christmas
+                decoration champion. Tricia performs around the city with her
+                indie team Trouble, and her duo Bloody Marys. She loves ice cream,
+                her friends, and the classic film 'National Treasure'. Catch her
+                saying things like “Yes, and let me tell you about how DC should
+                be a state” on a stage near you. #DCSTATEHOODNOW
+              </p>
+            </div>
+          </li>
+          <li class="carousel__slide">
+            <div class="image-frame">
+              <img class="carousel__image" src="images/Steve-Han.jpg" alt="">
+            </div>
+            <div class="image-text-frame">
+              <h2 class="image_title">Steven</h2>
+              <p class="image_description">
+                Steve Han is a comedian in Chicago who is proudly not using his
+                degree in biology from the University of Chicago at all! He has
+                appeared on TV shows and content for networks such as NBC, ESPN,
+                and The Onion. He has performed at venues such as the Steppenwolf,
+                Laugh Factory, and the Second City He is a recipient of the 2018
+                NBC Universal Bob Curry Fellowship at Second City, where he is
+                also a Faculty member. He is proudly represented by Paonessa Talent.
+                For more dumb content, follow him @steyonceknowles. He thanks is Mom
+                and Grandma for the inspiration for the dumb bits.
+              </p>
+            </div>
+          </li>
+          <li class="carousel__slide">
+            <div class="image-frame">
+              <img class="carousel__image" src="images/zach-goodman.jpg" alt="">
+            </div>
+            <div class="image-text-frame">
+              <h2 class="image_title">Zach</h2>
+              <p class="image_description">
+                Zach is a Chicago based improviser and a proud memeber of Mothership.
+              </p>
+            </div>
+          </li>
+        </ul>
+        <button id="who_image_close_button" aria-expanded="false">close</button>
+      </div>
+      <button class="carousel__button carousel__button--right">&#8250;</button>
+      <div class="carousel__description">
+        <div class="carousel__description__header">testing1</div>
+        <div class="carousel__description__text">testing2</div>
+      </div>
+    </div>
+    <script src="js/carousel.js"></script>
+  </section>
+  <div class="mobile_section_transition">
+    <img class="mobile_section_transition--image" src="images/crowd.png" alt="image of large crowd">
+  </div>
+  <section id="where">
+    <div class="where_image-container">
+      <div class="where_image--frame">
+          <img class="crowd_image" src="images/crowd.png" alt="image of large crowd">
+      </div>
+    </div>
+    <div class="where_text-container">
+      <div class="where_headline_wrapper">
+        <h2>where we are</h2>
+      </div>
+      <div class="where_columns">
+        <div class="where_column left">
+          <div class="where_column--image">
+            <img class="column_image" src="images/chicago_pin.png" alt="">
+          </div>
+          <div class="where_column--text">
+            <p>Pull into home port with Mothership.</p>
+            <h3>Chicago Shows</h3>
+            <ul class="show_list">
+              <li>
+                <h4 class="venue">iO Theater:</h4>
+                Wednesdays @ 10p <span class="cancel">CANCELLED FOR COVID</span></li>
+              <li>
+                <h4 class="venue">Annoyance Theater:</h4>
+                Every first Monday @ 8p <span class="cancel">CANCELLED FOR COVID</span></li>
+            </ul>
+          </div>
+        </div>
+        <div class="where_column center">
+          <div class="where_column--image">
+            <img class="column_image" src="images/usa_map_pin.png" alt="">
+          </div>
+          <div class="where_column--text">
+            <p>Every so oftern we pack up the Mothership and hit the American highways.</p>
+            <h3>U.S. Shows</h3>
+            <ul class="show_list">
+              <li>
+                <h4 class="venue">NYC:</h4>
+                April, 2020 <span class="cancel">CANCELLED FOR COVID</span></li>
+              <li>
+                <h4 class="venue">Austin, TX:</h4>
+                June, 2020 <span class="cancel">CANCELLED FOR COVID</span></li>
+                <li>
+                  <h4 class="venue">Portland, OR:</h4>
+                  July, 2020 <span class="cancel">CANCELLED FOR COVID</span>
+                </li>
+            </ul>
+          </div>
+        </div>
+        <div class="where_column right">
+          <div class="where_column--image">
+            <img class="column_image" src="images/world_map_pin.png" alt="">
+          </div>
+          <div class="where_column--text">
+            <p>Mothership loves to circle the globe.</p>
+            <h3>International Shows</h3>
+            <ul class="show_list">
+              <li>No current shows</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <div class="social_media_wrapper">
+      <a href="https://www.facebook.com"><img class="social_media_logo" src="images/f_logo_RGB-White_114.png"></a>
+      <a href="https://www.twitter.com"><img class="social_media_logo" src="images/Twitter_Logo_WhiteOnImage.png"></a>
+      <a href="https://www.instagram.com"><img class="social_media_logo" src="images/instagram_logo_wht.png"></a>
+    </div>
+    <div class="designer_credit">
+      <span>2020 Created by:</span> Higbee Design
+    </div>
+  </footer>
+</body>
+</html>
